@@ -504,6 +504,14 @@
           icon.textContent = "🔄";
           title.textContent = "مبروك! لفة إضافية";
           sub.textContent = "ما في داعي تنتظر — رجّع عالبوت وضغط \"🆓 اللفة المجانية\" وجرب حظك فوراً مرة كمان 🎡";
+        } else if (prizeType === "recharge_bonus"){
+          icon.textContent = "📈";
+          title.textContent = "مبروك! كوبون زيادة على الشحن";
+          sub.textContent = "🎟️ تُضاف هذه الزيادة تلقائياً على أول عملية شحن معتمدة لك. شحنتك القادمة أكبر!";
+        } else if (prizeType === "daily_cashback"){
+          icon.textContent = "🌅";
+          title.textContent = "مبروك! كوبون تعويض يومي";
+          sub.textContent = "🎟️ يشمل خسارة أول يوم كامل قادم، ويُصرف الساعة 9 صباح اليوم التالي بشرط أن يكون رصيدك في iChancy = 0 عند 12 ليلاً. سيصلك تأكيد في البوت.";
         } else if (prizeType === "custom_message"){
           icon.textContent = "🎁";
           title.textContent = "مبروك!";
